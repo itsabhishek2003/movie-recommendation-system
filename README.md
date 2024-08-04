@@ -2,7 +2,7 @@
 
 # Movie Recommender System
 
-This project is a movie recommender system built using the TMDB 6000 dataset from Kaggle. The system recommends movies based on user input, leveraging Natural Language Processing (NLP) techniques and a cosine similarity algorithm to find and suggest similar movies. The project is divided into two main components: the backend for data processing and machine learning, and the frontend for user interaction using Streamlit.
+This project is a movie recommender system built using the TMDB 6000 dataset from Kaggle. The system recommends movies based on user input, leveraging text preprocessing techniques and a cosine similarity algorithm to find and suggest similar movies. The project is divided into two main components: the backend for data processing and machine learning, and the frontend for user interaction using Streamlit.
 
 ## Project Structure
 
@@ -18,7 +18,7 @@ The TMDB 6000 dataset from Kaggle is loaded and cleaned to remove any inconsiste
 To create a comprehensive 'tags' column for each movie, relevant features such as genres, keywords, cast, and crew are combined into a single string. This helps in capturing the essential aspects of each movie for better similarity measurement.
 
 ### Text Preprocessing
-Natural Language Processing (NLP) techniques are applied to preprocess the text data. This includes:
+Basic text preprocessing techniques are applied to the text data. This includes:
 - Tokenization: Splitting text into individual words or tokens.
 - Lemmatization: Reducing words to their base or root form.
 - Removal of stop words: Eliminating common words that do not contribute to the meaning, such as 'and', 'the', etc.
@@ -69,10 +69,8 @@ Upon selecting a movie and clicking the "Show Recommendation" button, the applic
 
 ## Conclusion
 
-This movie recommender system leverages NLP techniques and cosine similarity to provide accurate movie recommendations based on user input. The combination of a robust backend and an interactive frontend makes this project a comprehensive solution for movie recommendations.
+This movie recommender system leverages text preprocessing techniques and cosine similarity to provide accurate movie recommendations based on user input. The combination of a robust backend and an interactive frontend makes this project a comprehensive solution for movie recommendations.
 
 Feel free to explore the code and provide feedback or suggestions for improvement!
 
 ---
-
-This detailed explanation should provide a thorough overview of your project. Let me know if you need any further details or modifications!
